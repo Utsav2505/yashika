@@ -1,0 +1,120 @@
+
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url("..//gymimage.jpg");
+        color: white;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: bolder;
+      }
+
+      .left {
+        border: 2px;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 64px;
+        text-align: center;
+        line-height: 15px;
+      }
+      .mid {
+        border: 2px;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 369px;
+        width: 538px;
+      }
+      .right {
+        border: 2px;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 34px;
+      }
+      .navbar {
+        display: inline-block;
+      }
+      .navbar li {
+        display: inline-block;
+      }
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 9px 12px;
+        font-size: 20px;
+      }
+      .navbar li a:hover,
+      .navbar li a.active {
+        text-decoration: underline;
+        color: greenyellow;
+      }
+      .left img {
+        height: 88px;
+        width: 136px;
+        filter: invert(100%);
+      }
+      .btn {
+        margin: 9px;
+        padding: 2px;
+        background-color: black;
+        color: white;
+        border: 2px soild red;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        border: 2px solid yellowgreen;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: bolder;
+      }
+
+      .btn:hover {
+        background-color: rgb(61, 61, 61);
+        border: 2px solid pink;
+      }
+
+      .container {
+        color: white;
+        border: 2px solid green;
+        position: absolute;
+        left: 357px;
+        top: 115px;
+        padding: 32px 42px;
+        width: 40%;
+        border-radius: 17px;
+        border-width: 9px;
+        font-weight: bolder;
+        font-size: medium;
+      }
+
+      .formgroup input {
+        margin: 5px 12px;
+        padding: 4px 7px;
+        border: 3px solid yellowgreen;
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: bolder;
+        width: 331px;
+        position: relative;
+        left: 55px;
+        height: 22px;
+      }
+      .formgroup input:hover {
+        border: 3px solid rgb(71, 4, 100);
+      }
+
+      #submitbtn {
+        box-sizing: border-box;
+        width: 350px;
+        padding: 7px 6px;
+        margin: 9px 8px;
+        position: relative;
+        left: 60px;
+        font-size: 17px;
+      }
+
+      h1 {
+        text-align: center;
+      }

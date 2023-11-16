@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@900&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body{background-color: antiquewhite;
+font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+color: white;
+background-color: black;
+border: 2px solid green;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    list-style-type: none;
+    
+}
+
+nav ul li a{
+    border:2px solid green;
+    margin:0px 80px;
+    color: white;
+}
+
+.brand img{
+    width:63px;
+    top:5px;
+    position:absolute;
+}
+
+#logoname{
+    font-weight: bolder;
+    font-size: 21px;
+    position:absolute;
+    top:12px;
+    left:56px;
+    font-family: 'DM Serif Display', serif; 
+}
+
+.container{
+    background-image: url(music.jpg);
+    box-sizing: border-box;
+    min-height:71vh;
+font-family: 'Varela Round', sans-serif;
+color:white;
+display: flex;
+width:75%;
+margin:13px auto;
+border-radius: 12px;
+padding: 18px;
+
+}
+li:nth-child(2){
+    
+    margin-top: 2.8vh;
+    margin-left: 12vw;
+    
+}
+li:nth-child(3){
+    
+    margin-top: 2.8vh;
+    margin-left: 2vw;
+}
+
+
+.bottom{
+    border:2px solid green;
+    position:sticky;
+    height:88px;
+    background-color: black;
+    bottom:0px;
+    text-align: center;
+    color:white;
+    
+}
+
+#myProgressBar{
+    position: relative;
+    top:10px;
+    width:96vw;
+}
+
+.icons{
+    position:relative;
+    top:12px;
+    
+}
+
+.icons i{
+    cursor:pointer;
+    margin:0px 7px;
+}

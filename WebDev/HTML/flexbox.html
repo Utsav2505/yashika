@@ -1,0 +1,40 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flex Box</title>
+    <style>
+      .container {
+        border: 2px solid green;
+        height: 544px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+      .item {
+        width: 200px;
+        height: 200px;
+        background-color: tomato;
+        border: 2px solid green;
+        margin: 10px;
+        padding: 3px;
+      }
+      #item-1 {
+        flex-grow: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This Is Flexbox</h1>
+    <div class="container">
+      <div class="item" id="item-1">1st box</div>
+      <div class="item" id="item-2">2nd box</div>
+      <div class="item" id="item-3">3rd box</div>
+      <div class="item" id="item-4">4th box</div>
+      <div class="item" id="item-5">5th box</div>
+      <div class="item" id="item-6">6th box</div>
+    </div>
+  </body>
+</html>
